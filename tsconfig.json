@@ -14,15 +14,15 @@
     "types": ["@dcloudio/types"],
     "paths": {
       "@/*": ["src/*"]
-    },
-    "skipLibCheck": true,
+    }
+    // "skipLibCheck": true
   },
   "include": [
-    "src/**/*.ts", 
-  "src/**/*.d.ts",
-   "src/**/*.tsx",
-   "src/**/*.vue",
-   "typings/**/*.ts",
-   "typings/**/*.d.ts"
-]
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "typings/**/*.ts",
+    "typings/**/*.d.ts"
+  ]
 }

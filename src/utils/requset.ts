@@ -22,7 +22,6 @@ Request.interceptors.request((request: any) => {
 
 // 响应拦截器
 Request.interceptors.response((response: any) => {
-  console.log(`varName ====>`, '响应拦截')
 
   const token = uni.getStorageSync('token')
 
