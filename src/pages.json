@@ -1,0 +1,62 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true,
+        "mp-weixin": {
+          "titleNView": {}
+        }
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {}
+    },
+    {
+      "path": "pages/function-options/traveling-track/traveling-track"
+    },
+    {
+      "path": "pages/function-options/orientation/orientation"
+    },
+    {
+      "path": "pages/function-options/mileage-statistics/mileage-statistics",
+      "style": {}
+    },
+    {
+      "path": "pages/function-options/anti-theft-recording/anti-theft-recording"
+    },
+    {
+      "path": "pages/function-options/terminal-setup/terminal-setup"
+    },
+    {
+      "path": "pages/function-options/traffic-recharge/traffic-recharge"
+    },
+    {
+      "path": "pages/function-options/electronic-fence/electronic-fence",
+      "style": {}
+    },
+    {
+      "path": "pages/function-options/contact-customer-cervice/contact-customer-cervice"
+    },
+    {
+      "path": "pages/function-options/function-set/function-set"
+    }
+  ],   
+  "globalStyle": {
+    "backgroundColor": "@bgColor",
+    "backgroundColorBottom": "@bgColorBottom",
+    "backgroundColorTop": "@bgColorTop",
+    "backgroundTextStyle": "@bgTxtStyle",
+    "navigationBarBackgroundColor": "@navBgColor",
+    "navigationBarTextStyle": "@navTxtStyle"
+  }
+}
